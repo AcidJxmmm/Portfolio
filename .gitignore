@@ -18,6 +18,9 @@
 .env.test.local
 .env.production.local
 
+// Install Dependencies
+npm i --save-dev gh-pages
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
