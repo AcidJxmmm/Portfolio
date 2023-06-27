@@ -11,6 +11,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./components/Footer";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -32,6 +34,8 @@ function App() {
         <Routes>
           <Route path="/portfolio" element={<Home />} />
         </Routes>
+        <Projects />
+        <Footer />
       </div>
     </Router>
   );

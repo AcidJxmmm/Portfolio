@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { CgGitFork } from "react-icons/cg";
+import { BsLinkedin } from "react-icons/bs";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -43,6 +44,16 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
+
+          <Nav.Item className="fork-btn">
+              <Button
+                href="https://www.linkedin.com/in/tunghungphan/"
+                target="_blank"
+                className="fork-btn-inner"
+              >
+                <BsLinkedin style={{ fontSize: "1.2em" }} /> Linkedin
+              </Button>
+            </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
