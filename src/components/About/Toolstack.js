@@ -3,9 +3,9 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiSlack,
-  SiVercel,
   SiMacos,
-  SiFigma
+  SiFigma,
+  SiTrello
 } from "react-icons/si";
 import {
   DiPhotoshop
@@ -28,6 +28,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPhotoshop />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTrello />
       </Col>
     </Row>
   );
