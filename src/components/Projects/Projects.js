@@ -57,7 +57,7 @@ function Projects() {
               imgPath={peter}
               isBlog={false}
               title="Treasure Hunt"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="The Peter Pan-themed website, developed with HTML, CSS, and Javascript, offers a rich and interactive experience for users interested in exploring the world of Peter Pan. Leveraging these technologies, the site goes beyond static content, incorporating various features to enhance interactivity and elevate the user experience."
               ghLink="https://github.com/AcidJxmmm/Treasure-Hunt"
               demoLink="https://acidjxmmm.github.io/Treasure-Hunt"              
             />
