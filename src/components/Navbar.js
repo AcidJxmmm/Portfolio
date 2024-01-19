@@ -6,6 +6,7 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { CgGitFork } from "react-icons/cg";
 import { BsLinkedin } from "react-icons/bs";
+import { IoIosDownload } from "react-icons/io";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -64,6 +65,18 @@ function NavBar() {
                 <CgGitFork style={{ fontSize: "1.2em" }} /> Github
               </Button>
             </Nav.Item>
+
+            <Nav.Item className="fork-btn">
+              <Button
+                href="/Tung's-Resume.pdf"
+                target="_blank"
+                className="fork-btn-inner"
+                download
+              >
+                <IoIosDownload style={{ fontSize: "1.2em" }} /> Resume
+              </Button>
+            </Nav.Item>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
