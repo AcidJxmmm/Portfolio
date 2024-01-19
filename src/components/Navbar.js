@@ -68,7 +68,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="/Tung's-Resume.pdf"
+                href="Tung's-Resume.pdf"
                 target="_blank"
                 className="fork-btn-inner"
                 download
